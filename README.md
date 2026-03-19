@@ -1,31 +1,40 @@
 # My Projects (M19Saudi)
 
-Welcome to my GitHub profile! Below are some of the websites and tools I have created:
+Welcome to my GitHub profile! Below are the websites and tools I have created:
 
 ---
 
-## 1. [Portfolio](https://m19saudi.github.io/portfolio/)
-A showcase of my work, skills, and achievements. Explore my projects, blog, and more!
+<div align="center">
+  <!-- Portfolio Button -->
+  <a href="https://m19saudi.github.io/portfolio/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-1f7dfd?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
+  </a>
+  
+  <!-- Test Button -->
+  <a href="https://m19saudi.github.io/test/" target="_blank">
+    <img src="https://img.shields.io/badge/Test-1f7dfd?style=for-the-badge&logo=github&logoColor=white" alt="Test" />
+  </a>
 
----
+  <!-- QR Code Generator Button -->
+  <a href="https://m19saudi.github.io/qr/" target="_blank">
+    <img src="https://img.shields.io/badge/QR%20Code%20Generator-1f7dfd?style=for-the-badge&logo=github&logoColor=white" alt="QR Code Generator" />
+  </a>
 
-## 2. [Test](https://m19saudi.github.io/test/)
-A website for testing various features and code snippets. It serves as a sandbox for experimentation.
+  <!-- Clipboard Manager Button -->
+  <a href="https://m19saudi.github.io/clipboard/" target="_blank">
+    <img src="https://img.shields.io/badge/Clipboard%20Manager-1f7dfd?style=for-the-badge&logo=github&logoColor=white" alt="Clipboard Manager" />
+  </a>
 
----
+  <!-- HTML Viewer Button -->
+  <a href="https://m19saudi.github.io/html-viewer/" target="_blank">
+    <img src="https://img.shields.io/badge/HTML%20Viewer-1f7dfd?style=for-the-badge&logo=github&logoColor=white" alt="HTML Viewer" />
+  </a>
 
-## 3. [QR Code Generator](https://m19saudi.github.io/qr/)
-Create and download QR codes easily. Simple and user-friendly interface to generate QR codes for any URL or text.
-
----
-
-## 4. [Clipboard Manager](https://m19saudi.github.io/clipboard/)
-A tool to help you manage and organize your clipboard history. Save time by accessing copied content quickly.
-
----
-
-## 5. [HTML Viewer](https://m19saudi.github.io/html-viewer/)
-A browser-based HTML viewer to help you visualize and preview HTML files instantly. Perfect for developers and designers.
+  <!-- More Button -->
+  <a href="#more" target="_blank">
+    <img src="https://img.shields.io/badge/More-1f7dfd?style=for-the-badge&logo=github&logoColor=white" alt="More" />
+  </a>
+</div>
 
 ---
 

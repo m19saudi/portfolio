@@ -1,1 +1,95 @@
-<h1>My Projects (M19Saudi)</h1><br><br>Welcome to my GitHub profile! Below are the websites and tools I have created:<br><br>---<br><br><div align="center"><br>  <!-- Portfolio Button --><br>  <a href="https://m19saudi.github.io/portfolio/" target="_blank"><br>    <img src="https://img.shields.io/badge/Portfolio-1f7dfd?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" /><br>  </a><br>  <br>  <!-- Test Button --><br>  <a href="https://m19saudi.github.io/test/" target="_blank"><br>    <img src="https://img.shields.io/badge/Test-1f7dfd?style=for-the-badge&logo=github&logoColor=white" alt="Test" /><br>  </a><br><br>  <!-- QR Code Generator Button --><br>  <a href="https://m19saudi.github.io/qr/" target="_blank"><br>    <img src="https://img.shields.io/badge/QR%20Code%20Generator-1f7dfd?style=for-the-badge&logo=github&logoColor=white" alt="QR Code Generator" /><br>  </a><br><br>  <!-- Clipboard Manager Button --><br>  <a href="https://m19saudi.github.io/clipboard/" target="_blank"><br>    <img src="https://img.shields.io/badge/Clipboard%20Manager-1f7dfd?style=for-the-badge&logo=github&logoColor=white" alt="Clipboard Manager" /><br>  </a><br><br>  <!-- HTML Viewer Button --><br>  <a href="https://m19saudi.github.io/html-viewer/" target="_blank"><br>    <img src="https://img.shields.io/badge/HTML%20Viewer-1f7dfd?style=for-the-badge&logo=github&logoColor=white" alt="HTML Viewer" /><br>  </a><br><br>  <!-- More Button --><br>  <a href="#more" target="_blank"><br>    <img src="https://img.shields.io/badge/More-1f7dfd?style=for-the-badge&logo=github&logoColor=white" alt="More" /><br>  </a><br></div><br><br>---<br><br><h2>Contact Me</h2><br><br>Feel free to reach out if you have any questions or feedback:<br><br>- 📧 <a href='mailto:youremail@example.com'>Email</a><br>- 🐦 <a href='https://twitter.com/yourhandle'>Twitter</a><br>- 💼 <a href='https://linkedin.com/in/yourprofile'>LinkedIn</a><br><br>---<br><br><h3>Technologies Used</h3><br>- HTML, CSS, JavaScript<br>- React, Node.js, Express<br>- GitHub Pages, Netlify, Vercel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #555;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+  }
+
+  .portfolio-btn {
+    background: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    height: 100px;
+    cursor: pointer;
+  }
+
+  .portfolio-btn:hover {
+    background: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+
+  footer {
+    margin-top: 60px;
+    color: #888;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  @media (max-width: 500px) {
+    .portfolio-btn {
+      height: 80px;
+      font-size: 14px;
+      padding: 15px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>My Portfolio</h1>
+<p>Check out some of my projects below</p>
+
+<div class="button-grid">
+  <a class="portfolio-btn" href="https://m19saudi.github.io/html-viewer/" target="_blank">HTML-Viewer</a>
+  <a class="portfolio-btn" href="https://m19saudi.github.io/qr/" target="_blank">QR Code</a>
+  <a class="portfolio-btn" href="https://m19saudi.github.io/clipboard/" target="_blank">Clipboard</a>
+  <a class="portfolio-btn" href="https://m19saudi.github.io/portfolio/" target="_blank">Portfolio</a>
+  <a class="portfolio-btn" href="https://m19saudi.github.io/test/" target="_blank">Test</a>
+  <a class="portfolio-btn" href="https://m19saudi.github.io/more/" target="_blank">Project 6</a>
+</div>
+
+<footer>
+  &copy; 2026 M19Saudi. All rights reserved.
+</footer>
+
+</body>
+</html>

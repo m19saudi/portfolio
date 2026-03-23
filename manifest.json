@@ -3,7 +3,7 @@
   "short_name": "M19",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "##000000", // This is your splash background color
+  "background_color": "#000000", // This is your splash background color
   "theme_color": "#007BFF",
   "orientation": "portrait",
   "icons": [

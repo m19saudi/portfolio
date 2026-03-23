@@ -3,8 +3,9 @@
   "short_name": "M19",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#0A1F44",  // This is your splash background color
+  "background_color": "##000000", // This is your splash background color
   "theme_color": "#007BFF",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "icon-192.png",
@@ -14,11 +15,6 @@
     {
       "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "splash.png",
-      "sizes": "1024x1024",
       "type": "image/png"
     }
   ]

@@ -3,7 +3,7 @@
   "short_name": "M19",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#000000",
+  "background_color": "#010101",
   "theme_color": "#007BFF",
   "orientation": "portrait",
   "icons": [

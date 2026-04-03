@@ -97,26 +97,25 @@
     <a class="portfolio-btn" href="https://m19saudi.github.io/qr-reader/" target="_blank">QR Scanner</a>
     <a class="portfolio-btn" href="https://lab-tools.tiiny.site/" target="_blank">Lab Tools</a>
     <a class="portfolio-btn" href="https://clipboard-nu-sepia.vercel.app/" target="_blank">Clipboard</a>
-  </div>
+    <a class="portfolio-btn" href="https://m19saudi.github.io/pixelfy/" target="_blank">Pixelfy</a>
+    <a class="portfolio-btn" href="https://m19saudi.github.io/GarageX/" target="_blank">GarageX</a>
+    <a class="portfolio-btn" href="https://ai-lab-dashboard.vercel.app/" target="_blank">AI Lab</a>
+    <a class="portfolio-btn" href="https://coda.io/@m-saudi/arranger" target="_blank">Blog</a>
+    <a class="portfolio-btn" href="https://github.com/dashboard" target="_blank">Dashboard</a>
 
-  <div style="margin-top:20px; text-align:center;">
-    <button class="portfolio-btn" onclick="showPage(2)">Next →</button>
+    <!-- Next button as a normal portfolio button -->
+    <button class="portfolio-btn" id="nextBtn">Next →</button>
   </div>
 </div>
 
 <!-- PAGE 2 -->
 <div id="page2" style="display:none;">
   <div class="button-grid">
-    <a class="portfolio-btn" href="https://m19saudi.github.io/pixelfy/" target="_blank">Pixelfy</a>
-    <a class="portfolio-btn" href="https://m19saudi.github.io/portfolio/" target="_blank">Portfolio</a>
-    <a class="portfolio-btn" href="https://ai-lab-dashboard.vercel.app/" target="_blank">AI Lab</a>
-    <a class="portfolio-btn" href="https://coda.io/@m-saudi/arranger" target="_blank">Blog</a>
-    <a class="portfolio-btn" href="https://m19saudi.github.io/test/" target="_blank">Test</a>
-    <a class="portfolio-btn" href="https://github.com/dashboard" target="_blank">Dashboard</a>
-  </div>
+   <a class="portfolio-btn" href="https://m19saudi.github.io/test/" target="_blank">Test1</a>
+   <a class="portfolio-btn" href="https://m19saudi.github.io/test/" target="_blank">Test2</a>
 
-  <div style="margin-top:20px; text-align:center;">
-    <button class="portfolio-btn" onclick="showPage(1)">← Prev</button>
+    <!-- Prev button as a normal portfolio button -->
+    <button class="portfolio-btn" id="prevBtn">← Prev</button>
   </div>
 </div>
  
@@ -159,14 +158,16 @@
         });
       });
     });
-   // 👇 ADD THIS PART HERE
-  function showPage(page) {
-    document.getElementById("page1").style.display = "none";
-    document.getElementById("page2").style.display = "none";
+// Mobile-friendly Next/Prev buttons inside the grid
+document.getElementById("nextBtn").addEventListener("click", function() {
+  document.getElementById("page1").style.display = "none";
+  document.getElementById("page2").style.display = "block";
+});
 
-    document.getElementById("page" + page).style.display = "block";
-  }
-   
+document.getElementById("prevBtn").addEventListener("click", function() {
+  document.getElementById("page2").style.display = "none";
+  document.getElementById("page1").style.display = "block";
+});
   </script>
   
 </body>

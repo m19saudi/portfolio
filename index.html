@@ -102,9 +102,9 @@
     <a class="portfolio-btn" href="https://ai-lab-dashboard.vercel.app/" target="_blank">AI Lab</a>
     <a class="portfolio-btn" href="https://coda.io/@m-saudi/arranger" target="_blank">Blog</a>
     <a class="portfolio-btn" href="https://github.com/dashboard" target="_blank">Dashboard</a>
-
-    <!-- Next button as a normal portfolio button -->
-    <button class="portfolio-btn" id="nextBtn">Next →</button>
+    
+    <!-- Next button as a normal portfolio link -->
+    <a class="portfolio-btn" href="#page2" onclick="showPage('page2'); return false;">Next →</a>
   </div>
 </div>
 
@@ -115,7 +115,7 @@
    <a class="portfolio-btn" href="https://m19saudi.github.io/test/" target="_blank">Test2</a>
 
     <!-- Prev button as a normal portfolio button -->
-    <button class="portfolio-btn" id="prevBtn">← Prev</button>
+    <a class="portfolio-btn" href="#page1" onclick="showPage('page1'); return false;">← Prev</a>
   </div>
 </div>
  
@@ -158,16 +158,11 @@
         });
       });
     });
-// Mobile-friendly Next/Prev buttons inside the grid
-document.getElementById("nextBtn").addEventListener("click", function() {
+function showPage(id) {
   document.getElementById("page1").style.display = "none";
-  document.getElementById("page2").style.display = "block";
-});
-
-document.getElementById("prevBtn").addEventListener("click", function() {
   document.getElementById("page2").style.display = "none";
-  document.getElementById("page1").style.display = "block";
-});
+  document.getElementById(id).style.display = "block";
+}
   </script>
   
 </body>

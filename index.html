@@ -88,21 +88,38 @@
 <h1>My Portfolio</h1>
 <p>Check out some of my projects below</p>
 
-<div class="button-grid">
-  <a class="portfolio-btn" href="https://m19saudi.github.io/athkar/" target="_blank">Athkar</a>
-  <a class="portfolio-btn" href="https://m19saudi.github.io/html-viewer/" target="_blank">HTML-Viewer</a>
-  <a class="portfolio-btn" href="https://m19saudi.github.io/qr/" target="_blank">QR Generator</a>
-  <a class="portfolio-btn" href="https://m19saudi.github.io/qr-reader/" target="_blank">QR Scanner</a>
-  <a class="portfolio-btn" href="https://lab-tools.tiiny.site/" target="_blank">Lab Tools</a>
-  <a class="portfolio-btn" href="https://clipboard-nu-sepia.vercel.app/" target="_blank">Clipboard</a>
-  <a class="portfolio-btn" href="https://m19saudi.github.io/pixelfy/" target="_blank">Pixelfy</a>
-  <a class="portfolio-btn" href="https://m19saudi.github.io/portfolio/" target="_blank">Portfolio</a>
-  <a class="portfolio-btn" href="https://ai-lab-dashboard.vercel.app/" target="_blank">AI Lab</a>
-  <a class="portfolio-btn" href="https://coda.io/@m-saudi/arranger" target="_blank">Blog</a>
-    <a class="portfolio-btn" href="https://m19saudi.github.io/test/" target="_blank">Test</a>
-  <a class="portfolio-btn" href="https://github.com/dashboard" target="_blank">Dashboard</a>
+<!-- PAGE 1 -->
+<div id="page1">
+  <div class="button-grid">
+    <a class="portfolio-btn" href="https://m19saudi.github.io/athkar/" target="_blank">Athkar</a>
+    <a class="portfolio-btn" href="https://m19saudi.github.io/html-viewer/" target="_blank">HTML-Viewer</a>
+    <a class="portfolio-btn" href="https://m19saudi.github.io/qr/" target="_blank">QR Generator</a>
+    <a class="portfolio-btn" href="https://m19saudi.github.io/qr-reader/" target="_blank">QR Scanner</a>
+    <a class="portfolio-btn" href="https://lab-tools.tiiny.site/" target="_blank">Lab Tools</a>
+    <a class="portfolio-btn" href="https://clipboard-nu-sepia.vercel.app/" target="_blank">Clipboard</a>
+  </div>
+
+  <div style="margin-top:20px; text-align:center;">
+    <button class="portfolio-btn" onclick="showPage(2)">Next →</button>
+  </div>
 </div>
 
+<!-- PAGE 2 -->
+<div id="page2" style="display:none;">
+  <div class="button-grid">
+    <a class="portfolio-btn" href="https://m19saudi.github.io/pixelfy/" target="_blank">Pixelfy</a>
+    <a class="portfolio-btn" href="https://m19saudi.github.io/portfolio/" target="_blank">Portfolio</a>
+    <a class="portfolio-btn" href="https://ai-lab-dashboard.vercel.app/" target="_blank">AI Lab</a>
+    <a class="portfolio-btn" href="https://coda.io/@m-saudi/arranger" target="_blank">Blog</a>
+    <a class="portfolio-btn" href="https://m19saudi.github.io/test/" target="_blank">Test</a>
+    <a class="portfolio-btn" href="https://github.com/dashboard" target="_blank">Dashboard</a>
+  </div>
+
+  <div style="margin-top:20px; text-align:center;">
+    <button class="portfolio-btn" onclick="showPage(1)">← Prev</button>
+  </div>
+</div>
+ 
 <footer>
   &copy; 2026 M19Saudi. All rights reserved.
 </footer>
@@ -142,6 +159,14 @@
         });
       });
     });
+   // 👇 ADD THIS PART HERE
+  function showPage(page) {
+    document.getElementById("page1").style.display = "none";
+    document.getElementById("page2").style.display = "none";
+
+    document.getElementById("page" + page).style.display = "block";
+  }
+   
   </script>
   
 </body>
